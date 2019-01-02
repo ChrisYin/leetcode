@@ -44,5 +44,15 @@ coding exercises on leetcode.com
 		using hash table to find.  
 		Time Complexivity: O(n)  
 		Space Complexvity: O(n)  
-		
+	
+2. p7-Reverse Integer
+   
+   2.1 integer overflow
+   
+   unsigned int: 0 to 4294967295  
+   signed int: -2147483648 to 2147483647  
+   the limits are defined in limits.h header  
+	   + std::numeric_limits<int>::min()
+	   + std::numeric_limits<int>::max()
+   
 		

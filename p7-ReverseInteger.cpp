@@ -8,29 +8,49 @@ using namespace std;
 #include <cmath>
 #include <limits>
 
-class Solution {
+//my solution: 28ms
+/*class Solution {
 public:
     int reverse(int x) {
         int res = 0;
         stack<int> bitStack;
-        bool isNeg = (x<0);
-        x = abs(x);
-        while(x / 10 != 0){
+        while(x != 0){
             int bitTemp = x%10;
             bitStack.push(bitTemp);
             x /= 10;
-        }
-        bitStack.push(x);
+        };
         for(int i = 0; bitStack.size() > 0; i++){
-            if(numeric_limits<int>::max() - res < bitStack.top() * pow(10, i)){
-                //throw std::runtime_error("overflow\n");
+            int temp = bitStack.top() * pow(10, i);
+            if(temp > 0 && temp > numeric_limits<int>::max()-res){
+                //throw runtime_error("overflow\n");
                 return 0;
             }
-            res += bitStack.top() * pow(10, i);
+            if(temp < 0 && temp < numeric_limits<int>::min()-res){
+                //throw runtime_error("overflow\n");
+                return 0;
+            }
+            res += temp;
             bitStack.pop();
         }
-        if(isNeg)
-            res = -res;
+        return res;
+    }
+};*/
+
+//24ms
+class Solution {
+public:
+    int reverse(int x) {
+        int res = 0;
+        while(x != 0){
+            int pop = x % 10;
+            x /= 10;
+            //judge overflow
+            if(res > numeric_limits<int>::max()/10 || (res == numeric_limits<int>::max()/10 && pop > 7))
+                return 0;
+            if(res < numeric_limits<int>::max()/10 || (res == numeric_limits<int>::min()/10 && pop < -8))
+                return 0;
+            res = res * 10 + pop;
+        }
         return res;
     }
 };
