@@ -36,9 +36,13 @@ coding exercises on leetcode.com
 		
 		+ brute force
 		
-		find the complement number
+		find the complement number  
+		Time Complexivity: O(n^2)  
+		Space Complexivity: O(1)  
 		
-		+ hash table
+		+ one pass hash table  
+		using hash table to find.  
+		Time Complexivity: O(n)  
+		Space Complexvity: O(n)  
 		
-		using hash table to find.
 		
