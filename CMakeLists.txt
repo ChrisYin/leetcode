@@ -4,3 +4,4 @@ project(leetcode)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(p1 p1-TwoSum.cpp )
+add_executable(p7 p7-ReverseInteger.cpp)
