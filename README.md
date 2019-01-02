@@ -66,3 +66,8 @@ coding exercises on leetcode.com
 	Time Complexivity: O(N)  
 	Space Complexivity: O(1)  
 	
+4. p26-Remove Duplicate From Sorted Array
+   
+   two hints:  
+   + read the requirement carefully!  
+   + 
