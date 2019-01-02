@@ -56,3 +56,13 @@ coding exercises on leetcode.com
 	   + std::numeric_limits<int>::max()
    
 		
+3. p905-Sort Array By Parity[array]
+
+	3.1 Two Pass  
+	Time Complexivity:O(N)  
+	Space Complexivity:O(N)  
+	
+	3.2 Quick sort  
+	Time Complexivity: O(N)  
+	Space Complexivity: O(1)  
+	
