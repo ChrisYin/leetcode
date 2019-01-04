@@ -98,3 +98,13 @@ doing coding exercises by topics.
 
 	...
 	
+11. p155-Min Stack [#stack]
+
+	push min element into she stack.
+
+12. p121-Best Time to Buy and Sell Stocl [#dynamic programming]
+
+	+ min() and max() function in c++  
+	+ considering if the input is correct?  
+	
+	

@@ -17,3 +17,5 @@ add_executable(p859 p859-BuddyStrings.cpp)
 add_executable(p496 p496-NextGreaterElement.cpp)
 add_executable(p225 p225-ImplementStackUsingQueues.cpp)
 add_executable(p155 p155-MinStack.cpp)
+#dynamic programming
+add_executable(p121 p121-BestTimeToBuyAndSellStock.cpp)
