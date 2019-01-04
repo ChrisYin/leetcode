@@ -89,3 +89,7 @@ doing coding exercises by topics.
 	+ using set container to count character in string  
 	+ write several situations before writing codes  
 
+9. p496-NextGreaterElement [#stack]
+
+	+ O(n^2) brute force  
+	+ O(n) using stack and unordered_map  

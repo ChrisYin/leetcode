@@ -13,3 +13,5 @@ add_executable(p665 p665-NonDecreasingArray.cpp)
 add_executable(p13 p13-RomanToInteger.cpp)
 add_executable(p345 p345-ReverseVowelsOfAString.cpp)
 add_executable(p859 p859-BuddyStrings.cpp)
+##stack
+add_executable(p496 p496-NextGreaterElement.cpp)
