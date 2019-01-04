@@ -1,12 +1,10 @@
 # leetcode
 coding exercises on leetcode.com
 ## plan
-1. difficulty: easy  
-   goal: basic grammar for c++
-   
-2. diffuculty:medium  
-   for different topic  
-
+doing coding exercises by topics.  
+30 big topics and 6 small topics  
+1. two topics a day: three easy questions for each topic
+2. 
 
 ## notes
 1. p1-Two Sum
@@ -56,7 +54,7 @@ coding exercises on leetcode.com
 	   + std::numeric_limits<int>::max()
    
 		
-3. p905-Sort Array By Parity[array]
+3. p905-Sort Array By Parity[#array]
 
 	3.1 Two Pass  
 	Time Complexivity:O(N)  
@@ -66,8 +64,15 @@ coding exercises on leetcode.com
 	Time Complexivity: O(N)  
 	Space Complexivity: O(1)  
 	
-4. p26-Remove Duplicate From Sorted Array
+4. p26-Remove Duplicate From Sorted Array[#array]
    
    two hints:  
    + read the requirement carefully!  
-   + 
+   + pay attention to details  
+   
+5. p665-Non-decreasing Array[#array]
+   
+   test your analysize ability.  
+   you need to consider all situations.  
+   
+
