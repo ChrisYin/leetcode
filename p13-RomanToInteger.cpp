@@ -4,7 +4,7 @@
 using namespace std;
 #include <string>
 #include <stdexcept>
-//my solution: 72ms 48% 
+//my solution: 72ms 48%
 class Solution {
 public:
     int romanToInt(string s) {
