@@ -93,3 +93,8 @@ doing coding exercises by topics.
 
 	+ O(n^2) brute force  
 	+ O(n) using stack and unordered_map  
+
+10. p225-ImplementStackUsingQueues [#stack]
+
+	...
+	
