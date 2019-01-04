@@ -79,3 +79,9 @@ doing coding exercises by topics.
 
 	6.1 string container: like vector and stack  
 	6.2 can use unordered_map
+
+7. p345-ReverseVowelsOfAString [#string]
+
+	using swap function in c++
+
+

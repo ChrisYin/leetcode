@@ -11,3 +11,4 @@ add_executable(p905 p905-SortArrayByParity.cpp)
 add_executable(p665 p665-NonDecreasingArray.cpp)
 ##string
 add_executable(p13 p13-RomanToInteger.cpp)
+add_executable(p345 p345-ReverseVowelsOfAString.cpp)
