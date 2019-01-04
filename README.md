@@ -75,4 +75,7 @@ doing coding exercises by topics.
    test your analysize ability.  
    you need to consider all situations.  
    
+6. p13-RomanToInteger [#string]
 
+	6.1 string container: like vector and stack  
+	6.2 can use unordered_map
