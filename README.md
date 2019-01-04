@@ -84,4 +84,8 @@ doing coding exercises by topics.
 
 	using swap function in c++
 
+8. p859-BuddyStrings [#strings]
+
+	+ using set container to count character in string  
+	+ write several situations before writing codes  
 

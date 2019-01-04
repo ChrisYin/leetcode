@@ -12,3 +12,4 @@ add_executable(p665 p665-NonDecreasingArray.cpp)
 ##string
 add_executable(p13 p13-RomanToInteger.cpp)
 add_executable(p345 p345-ReverseVowelsOfAString.cpp)
+add_executable(p859 p859-BuddyStrings.cpp)
