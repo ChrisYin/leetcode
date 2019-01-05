@@ -120,5 +120,5 @@ doing coding exercises by topics.
 15. p453-MinimunMovesToEqualArrayElements [#Math]
 
 	+ Math Problem: using math proof to find the formula.
-
 	
+16. p204-Count Primes [#Math]
