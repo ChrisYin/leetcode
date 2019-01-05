@@ -20,3 +20,4 @@ add_executable(p155 p155-MinStack.cpp)
 #dynamic programming
 add_executable(p121 p121-BestTimeToBuyAndSellStock.cpp)
 add_executable(p53 p53-MaximumSubarray.cpp)
+add_executable(p303 p303-RangeSumQuery.cpp)
