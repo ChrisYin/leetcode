@@ -117,6 +117,8 @@ doing coding exercises by topics.
 
 	+ large queries: create extra space to store useful data;  
 	
+15. p453-MinimunMovesToEqualArrayElements [#Math]
 
+	+ Math Problem: using math proof to find the formula.
 
 	
