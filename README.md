@@ -107,4 +107,8 @@ doing coding exercises by topics.
 	+ min() and max() function in c++  
 	+ considering if the input is correct?  
 	
-	
+13. p53-MaximumSubarray [#dynamic programming]
+
+	+ Kadane's Algorithm  
+	  max array ends here => calculate the sum  
+	  max[i] = num[i] max[i-1]>0?max[i-1]:0;  

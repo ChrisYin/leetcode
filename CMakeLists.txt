@@ -19,3 +19,4 @@ add_executable(p225 p225-ImplementStackUsingQueues.cpp)
 add_executable(p155 p155-MinStack.cpp)
 #dynamic programming
 add_executable(p121 p121-BestTimeToBuyAndSellStock.cpp)
+add_executable(p53 p53-MaximumSubarray.cpp)
