@@ -122,3 +122,5 @@ doing coding exercises by topics.
 	+ Math Problem: using math proof to find the formula.
 	
 16. p204-Count Primes [#Math]
+
+	+ hash table thinking: init an array for recording isPrimes.
