@@ -124,3 +124,8 @@ doing coding exercises by topics.
 16. p204-Count Primes [#Math]
 
 	+ hash table thinking: init an array for recording isPrimes.
+
+17. p69-Sqrtx [#Math]
+
+	+ using binary search  
+	+ **multiplex overflow!!!**  

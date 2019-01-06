@@ -24,3 +24,4 @@ add_executable(p303 p303-RangeSumQuery.cpp)
 #math
 add_executable(p453 p453-MinimumMovesToEqualArrayElements.cpp)
 add_executable(p204 p204-CountPrimes.cpp)
+add_executable(p69 p69-sqrtx.cpp)
