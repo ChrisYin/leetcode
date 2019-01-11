@@ -134,3 +134,8 @@ doing coding exercises by topics.
 
 	+ struct vs class in c++: public inherience and private inherience
 	+ recursive method
+
+19. p108-Convert Sorted Array ti Binary Search Tree [#Tree]
+	
+	+ BST: left is less; right is greater.
+	+ create stack of pointer
