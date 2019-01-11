@@ -129,3 +129,8 @@ doing coding exercises by topics.
 
 	+ using binary search  
 	+ **multiplex overflow!!!**  
+
+18. p617-Merge Two Binary Tree [#Tree]
+
+	+ struct vs class in c++: public inherience and private inherience
+	+ recursive method
