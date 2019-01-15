@@ -15,6 +15,7 @@ using namespace std;
 #include <iostream>
 #include <vector>
 #include <stack>
+#include <queue>
 
 struct TreeNode {
     int val;
@@ -55,12 +56,25 @@ public:
     }
 };
 
+void printTree(TreeNode *tree){
+    queue<TreeNode *> st;
+    st.push(tree);
+    queue<int> test;
+    while(!st.empty()){
+        TreeNode *printNode = st.front();
+        st.pop();
+        cout<<printNode->val<<endl;
+        if(printNode->left!=NULL)
+            st.push(printNode->left);
+        if(printNode->right != NULL)
+            st.push(printNode->right);
+    }
+}
+
 int main(){
     vector<int> testArray = {-10,-3,0,5,9, 11};
     Solution test;
     TreeNode *res = test.sortedArrayToBST(testArray);
-
-
-
+    printTree(res);
     return 0;
 }

@@ -139,3 +139,8 @@ doing coding exercises by topics.
 	
 	+ BST: left is less; right is greater.
 	+ create stack of pointer
+	+ using recursive method to find the middle value
+	
+20. P687-Longest Univalue Path [#Tree]
+	
+	
