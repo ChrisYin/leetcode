@@ -3,7 +3,7 @@ project(leetcode)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(p1 p1-TwoSum.cpp )
+add_executable(p1 p1-TwoSum.cpp p687-LongestUnivaluePath.cpp)
 add_executable(p7 p7-ReverseInteger.cpp)
 ##array
 add_executable(p26 p26-RemoveDuplicatesFromSortedArray.cpp)
@@ -28,3 +28,4 @@ add_executable(p69 p69-sqrtx.cpp)
 #tree
 add_executable(p617 p617-MergeTwoBinaryTree.cpp)
 add_executable(p108 p108-ConvertSortedArrayToBinarySearchTree.cpp)
+add_executable(p687 p687-LongestUnivaluePath.cpp)

@@ -143,4 +143,9 @@ doing coding exercises by topics.
 	
 20. P687-Longest Univalue Path [#Tree]
 	
-	
+	+ dfs: depth first traversal
+	+ bfs: breadth first traversal  
+	  + inorder: left root right
+	  + preorder: root left right
+	  + postorder: left right root
+	+ using dynamic programming to calculate!
