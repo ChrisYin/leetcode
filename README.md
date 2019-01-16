@@ -149,3 +149,24 @@ doing coding exercises by topics.
 	  + preorder: root left right
 	  + postorder: left right root
 	+ using dynamic programming to calculate!
+
+21. p500-Keyboard Row [#Hash Table]
+
+	+ using unordered_map or unordered_set  
+		differences:
+		+ set
+		  + sorted order
+		  + unique value
+		  + implemented as BST
+		+ multi-set
+		  + sorted order
+		  + multi value
+		  + BST
+		+ unordered_set
+		  + any order
+		  + unique value
+		  + hash table
+		+ unordered_multiset
+	
+		
+	  

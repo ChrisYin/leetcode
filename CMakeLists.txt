@@ -29,3 +29,5 @@ add_executable(p69 p69-sqrtx.cpp)
 add_executable(p617 p617-MergeTwoBinaryTree.cpp)
 add_executable(p108 p108-ConvertSortedArrayToBinarySearchTree.cpp)
 add_executable(p687 p687-LongestUnivaluePath.cpp)
+#hashtable
+add_executable(p500 500-KeyboardRow.cpp)
