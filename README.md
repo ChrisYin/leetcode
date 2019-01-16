@@ -167,6 +167,11 @@ doing coding exercises by topics.
 		  + unique value
 		  + hash table
 		+ unordered_multiset
-	
+
+22. p645-SetMismatch [#hash table]
+
+	+ hashtable: O(2n)
+	+ array:save space O(n)
+	+ in place: save space O(1)
 		
 	  
