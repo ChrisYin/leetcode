@@ -181,4 +181,4 @@ doing coding exercises by topics.
 
 24. p733-Flood Fill [#depth first search]
 
-	
+	+ notes: need to consider the upper limit and the lower limit
