@@ -184,3 +184,7 @@ doing coding exercises by topics.
 	+ notes: need to consider the upper limit and the lower limit
 	+ depth first search: going deeper first
 	
+25. p110-Balanced Binary Tree [#depth first search]
+
+	+ clear recursive method: considering one node in one recursive;
+	+ no extra variable.

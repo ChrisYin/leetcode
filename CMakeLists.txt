@@ -35,3 +35,4 @@ add_executable(p645 p645-SetMismatch.cpp)
 add_executable(p219 p219-ContainsDuplicateII.cpp)
 #depth first search
 add_executable(p733 p733-FloodFill.cpp)
+add_executable(p110 p110-BalancedBinaryTree.cpp)
