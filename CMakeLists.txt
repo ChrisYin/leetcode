@@ -36,3 +36,4 @@ add_executable(p219 p219-ContainsDuplicateII.cpp)
 #depth first search
 add_executable(p733 p733-FloodFill.cpp)
 add_executable(p110 p110-BalancedBinaryTree.cpp)
+add_executable(p111 p111-MinimumDepthOfBinaryTree.cpp)
