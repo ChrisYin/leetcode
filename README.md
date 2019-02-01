@@ -188,3 +188,11 @@ doing coding exercises by topics.
 
 	+ clear recursive method: considering one node in one recursive;
 	+ no extra variable.
+
+26. p111-Minimum Depth of Binary Tree [#depth first search]
+
+	+ using recursion method: depth first search
+	  time complexivity: o(n)
+	+ using iteration method: depth first search
+	+ using breadth first search to decrease time complexivity
+	  using queue in C+++ to implement BFS

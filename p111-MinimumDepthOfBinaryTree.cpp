@@ -21,6 +21,7 @@ using namespace std;
 
 #include <iostream>
 #include <limits>
+#include <queue>
 
 struct TreeNode {
     int val;
@@ -30,7 +31,7 @@ struct TreeNode {
 };
 
 //my solution: 4ms 100%
-class Solution {
+/*class Solution {
 private:
     bool isLeafNode(TreeNode *node){
         return (node->left == NULL && node->right == NULL);
@@ -52,6 +53,36 @@ public:
         if(root->right!=NULL)
         depthRight = minDepth(root->right);
         return min(depthLeft, depthRight) + 1;
+    }
+};*/
+
+//BFS method with iteration: 4ms 100%
+class Solution {
+
+public:
+    int minDepth(TreeNode *root) {
+        queue<pair<TreeNode*, int>> nodeQueue;
+
+        if(root == NULL)
+            return 0;
+
+        nodeQueue.push(make_pair(root, 1));
+
+        int curMinDepth;
+        while(!nodeQueue.empty()){
+            root = nodeQueue.front().first;
+            curMinDepth = nodeQueue.front().second;
+            nodeQueue.pop();
+            if(root->left == NULL && root->right == NULL)
+                break;
+            if(root->left != NULL)
+                nodeQueue.push(make_pair(root->left, curMinDepth+1));
+            if(root->right != NULL)
+                nodeQueue.push(make_pair(root->right, curMinDepth+1));
+        }
+
+        return curMinDepth;
+
     }
 };
 
