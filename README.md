@@ -196,3 +196,14 @@ doing coding exercises by topics.
 	+ using iteration method: depth first search
 	+ using breadth first search to decrease time complexivity
 	  using queue in C+++ to implement BFS
+	  
+27. p743-Network Delay Time [#breadth first search]
+
+    + Graph method:
+	  + dijkstra's algorithm
+	  + bellman-ford algorithm
+	  
+	+ Depth first search
+	
+	+ 
+ 

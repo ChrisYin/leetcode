@@ -14,10 +14,20 @@
 using namespace std;
 
 #include <vector>
+#include <limits>
+#include <set>
+#include <iostream>
 
 class Solution {
 public:
-    int networkDelayTime(vector<vector<int>>& times, int N, int K) {
-
+    int networkDelayTime(vector<vector<int>> &times, int N, int K) {
+        
     }
 };
+
+int main(){
+    Solution test;
+    vector<vector<int>> times = {{2,1,1},{2,3,1},{3,4,1}};
+    int delayTime = test.networkDelayTime(times, 4, 2);
+    cout<<delayTime<<endl;
+}
