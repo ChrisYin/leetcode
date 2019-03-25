@@ -39,3 +39,9 @@ add_executable(p110 p110-BalancedBinaryTree.cpp)
 add_executable(p111 p111-MinimumDepthOfBinaryTree.cpp)
 #breadth first search
 add_executable(p743 p743-NetworkDelayTime.cpp)
+
+
+###########################################
+
+##tag: graph
+add_executable(djikstra graph/djikstra.cpp)

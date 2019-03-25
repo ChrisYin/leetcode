@@ -3,3 +3,5 @@
 cmake-build-debug/*
 #swap file
 *~
+cpp/.idea/*
+cpp/cmake-build-debug/*
