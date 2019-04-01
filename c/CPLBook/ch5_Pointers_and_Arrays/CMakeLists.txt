@@ -1,0 +1,2 @@
+add_executable(sortStrings sortStrings.c)
+target_link_libraries(sortStrings cpllib)

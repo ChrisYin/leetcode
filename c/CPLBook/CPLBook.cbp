@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="CPLBook"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\lib\;CMake Files\ch1_A_Tutorial_Introduction\;CMake Files\ch4_Functions_and_Program_Structure\;CMake Files\ch5_Pointers_and_Arrays\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/zhenguo/leetcode/c/CPLBook"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/zhenguo/leetcode/c/CPLBook/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/zhenguo/leetcode/c/CPLBook/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/zhenguo/leetcode/c/CPLBook/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/zhenguo/leetcode/c/CPLBook/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/zhenguo/leetcode/c/CPLBook"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/zhenguo/leetcode/c/CPLBook/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/zhenguo/leetcode/c/CPLBook/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/zhenguo/leetcode/c/CPLBook/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/zhenguo/leetcode/c/CPLBook/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/zhenguo/leetcode/c/CPLBook"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/zhenguo/leetcode/c/CPLBook/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/zhenguo/leetcode/c/CPLBook/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/zhenguo/leetcode/c/CPLBook/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/zhenguo/leetcode/c/CPLBook/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cpllib">
+				<Option output="/home/zhenguo/leetcode/c/CPLBook/lib/libcpllib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zhenguo/leetcode/c/CPLBook/lib"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/zhenguo/leetcode/c/CPLBook/."/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/zhenguo/leetcode/c/CPLBook/lib/Makefile&quot;  VERBOSE=1 cpllib"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/zhenguo/leetcode/c/CPLBook/lib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/zhenguo/leetcode/c/CPLBook/lib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/zhenguo/leetcode/c/CPLBook/lib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cpllib/fast">
+				<Option output="/home/zhenguo/leetcode/c/CPLBook/lib/libcpllib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zhenguo/leetcode/c/CPLBook/lib"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/zhenguo/leetcode/c/CPLBook/."/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/zhenguo/leetcode/c/CPLBook/lib/Makefile&quot;  VERBOSE=1 cpllib/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/zhenguo/leetcode/c/CPLBook/lib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/zhenguo/leetcode/c/CPLBook/lib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/zhenguo/leetcode/c/CPLBook/lib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ch1-20">
+				<Option output="/home/zhenguo/leetcode/c/CPLBook/ch1_A_Tutorial_Introduction/ch1-20" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zhenguo/leetcode/c/CPLBook/ch1_A_Tutorial_Introduction"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/zhenguo/leetcode/c/CPLBook/."/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/zhenguo/leetcode/c/CPLBook/ch1_A_Tutorial_Introduction/Makefile&quot;  VERBOSE=1 ch1-20"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/zhenguo/leetcode/c/CPLBook/ch1_A_Tutorial_Introduction/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/zhenguo/leetcode/c/CPLBook/ch1_A_Tutorial_Introduction/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/zhenguo/leetcode/c/CPLBook/ch1_A_Tutorial_Introduction/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ch1-20/fast">
+				<Option output="/home/zhenguo/leetcode/c/CPLBook/ch1_A_Tutorial_Introduction/ch1-20" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zhenguo/leetcode/c/CPLBook/ch1_A_Tutorial_Introduction"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/zhenguo/leetcode/c/CPLBook/."/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/zhenguo/leetcode/c/CPLBook/ch1_A_Tutorial_Introduction/Makefile&quot;  VERBOSE=1 ch1-20/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/zhenguo/leetcode/c/CPLBook/ch1_A_Tutorial_Introduction/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/zhenguo/leetcode/c/CPLBook/ch1_A_Tutorial_Introduction/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/zhenguo/leetcode/c/CPLBook/ch1_A_Tutorial_Introduction/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ch1-6">
+				<Option output="/home/zhenguo/leetcode/c/CPLBook/ch1_A_Tutorial_Introduction/ch1-6" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zhenguo/leetcode/c/CPLBook/ch1_A_Tutorial_Introduction"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/zhenguo/leetcode/c/CPLBook/."/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/zhenguo/leetcode/c/CPLBook/ch1_A_Tutorial_Introduction/Makefile&quot;  VERBOSE=1 ch1-6"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/zhenguo/leetcode/c/CPLBook/ch1_A_Tutorial_Introduction/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/zhenguo/leetcode/c/CPLBook/ch1_A_Tutorial_Introduction/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/zhenguo/leetcode/c/CPLBook/ch1_A_Tutorial_Introduction/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ch1-6/fast">
+				<Option output="/home/zhenguo/leetcode/c/CPLBook/ch1_A_Tutorial_Introduction/ch1-6" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zhenguo/leetcode/c/CPLBook/ch1_A_Tutorial_Introduction"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/zhenguo/leetcode/c/CPLBook/."/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/zhenguo/leetcode/c/CPLBook/ch1_A_Tutorial_Introduction/Makefile&quot;  VERBOSE=1 ch1-6/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/zhenguo/leetcode/c/CPLBook/ch1_A_Tutorial_Introduction/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/zhenguo/leetcode/c/CPLBook/ch1_A_Tutorial_Introduction/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/zhenguo/leetcode/c/CPLBook/ch1_A_Tutorial_Introduction/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="calc0">
+				<Option output="/home/zhenguo/leetcode/c/CPLBook/ch4_Functions_and_Program_Structure/calc0" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zhenguo/leetcode/c/CPLBook/ch4_Functions_and_Program_Structure"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/zhenguo/leetcode/c/CPLBook/."/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/zhenguo/leetcode/c/CPLBook/ch4_Functions_and_Program_Structure/Makefile&quot;  VERBOSE=1 calc0"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/zhenguo/leetcode/c/CPLBook/ch4_Functions_and_Program_Structure/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/zhenguo/leetcode/c/CPLBook/ch4_Functions_and_Program_Structure/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/zhenguo/leetcode/c/CPLBook/ch4_Functions_and_Program_Structure/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="calc0/fast">
+				<Option output="/home/zhenguo/leetcode/c/CPLBook/ch4_Functions_and_Program_Structure/calc0" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zhenguo/leetcode/c/CPLBook/ch4_Functions_and_Program_Structure"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/zhenguo/leetcode/c/CPLBook/."/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/zhenguo/leetcode/c/CPLBook/ch4_Functions_and_Program_Structure/Makefile&quot;  VERBOSE=1 calc0/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/zhenguo/leetcode/c/CPLBook/ch4_Functions_and_Program_Structure/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/zhenguo/leetcode/c/CPLBook/ch4_Functions_and_Program_Structure/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/zhenguo/leetcode/c/CPLBook/ch4_Functions_and_Program_Structure/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ch4-14">
+				<Option output="/home/zhenguo/leetcode/c/CPLBook/ch4_Functions_and_Program_Structure/ch4-14" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zhenguo/leetcode/c/CPLBook/ch4_Functions_and_Program_Structure"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/zhenguo/leetcode/c/CPLBook/."/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/zhenguo/leetcode/c/CPLBook/ch4_Functions_and_Program_Structure/Makefile&quot;  VERBOSE=1 ch4-14"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/zhenguo/leetcode/c/CPLBook/ch4_Functions_and_Program_Structure/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/zhenguo/leetcode/c/CPLBook/ch4_Functions_and_Program_Structure/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/zhenguo/leetcode/c/CPLBook/ch4_Functions_and_Program_Structure/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ch4-14/fast">
+				<Option output="/home/zhenguo/leetcode/c/CPLBook/ch4_Functions_and_Program_Structure/ch4-14" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zhenguo/leetcode/c/CPLBook/ch4_Functions_and_Program_Structure"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/zhenguo/leetcode/c/CPLBook/."/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/zhenguo/leetcode/c/CPLBook/ch4_Functions_and_Program_Structure/Makefile&quot;  VERBOSE=1 ch4-14/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/zhenguo/leetcode/c/CPLBook/ch4_Functions_and_Program_Structure/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/zhenguo/leetcode/c/CPLBook/ch4_Functions_and_Program_Structure/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/zhenguo/leetcode/c/CPLBook/ch4_Functions_and_Program_Structure/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sortStrings">
+				<Option output="/home/zhenguo/leetcode/c/CPLBook/ch5_Pointers_and_Arrays/sortStrings" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zhenguo/leetcode/c/CPLBook/ch5_Pointers_and_Arrays"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/zhenguo/leetcode/c/CPLBook/."/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/zhenguo/leetcode/c/CPLBook/ch5_Pointers_and_Arrays/Makefile&quot;  VERBOSE=1 sortStrings"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/zhenguo/leetcode/c/CPLBook/ch5_Pointers_and_Arrays/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/zhenguo/leetcode/c/CPLBook/ch5_Pointers_and_Arrays/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/zhenguo/leetcode/c/CPLBook/ch5_Pointers_and_Arrays/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sortStrings/fast">
+				<Option output="/home/zhenguo/leetcode/c/CPLBook/ch5_Pointers_and_Arrays/sortStrings" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zhenguo/leetcode/c/CPLBook/ch5_Pointers_and_Arrays"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/zhenguo/leetcode/c/CPLBook/."/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/zhenguo/leetcode/c/CPLBook/ch5_Pointers_and_Arrays/Makefile&quot;  VERBOSE=1 sortStrings/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/zhenguo/leetcode/c/CPLBook/ch5_Pointers_and_Arrays/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/zhenguo/leetcode/c/CPLBook/ch5_Pointers_and_Arrays/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/zhenguo/leetcode/c/CPLBook/ch5_Pointers_and_Arrays/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/zhenguo/leetcode/c/CPLBook/ch1_A_Tutorial_Introduction/ch1-20.c">
+			<Option target="ch1-20"/>
+		</Unit>
+		<Unit filename="/home/zhenguo/leetcode/c/CPLBook/ch1_A_Tutorial_Introduction/ch1-6.c">
+			<Option target="ch1-6"/>
+		</Unit>
+		<Unit filename="/home/zhenguo/leetcode/c/CPLBook/ch4_Functions_and_Program_Structure/calc/calc.c">
+			<Option target="calc0"/>
+		</Unit>
+		<Unit filename="/home/zhenguo/leetcode/c/CPLBook/ch4_Functions_and_Program_Structure/calc/calc.h">
+			<Option target="calc0"/>
+		</Unit>
+		<Unit filename="/home/zhenguo/leetcode/c/CPLBook/ch4_Functions_and_Program_Structure/calc/getch.c">
+			<Option target="calc0"/>
+		</Unit>
+		<Unit filename="/home/zhenguo/leetcode/c/CPLBook/ch4_Functions_and_Program_Structure/calc/getop.c">
+			<Option target="calc0"/>
+		</Unit>
+		<Unit filename="/home/zhenguo/leetcode/c/CPLBook/ch4_Functions_and_Program_Structure/calc/stack.c">
+			<Option target="calc0"/>
+		</Unit>
+		<Unit filename="/home/zhenguo/leetcode/c/CPLBook/ch4_Functions_and_Program_Structure/ch4-14-macro.c">
+			<Option target="ch4-14"/>
+		</Unit>
+		<Unit filename="/home/zhenguo/leetcode/c/CPLBook/ch5_Pointers_and_Arrays/sortStrings.c">
+			<Option target="sortStrings"/>
+		</Unit>
+		<Unit filename="/home/zhenguo/leetcode/c/CPLBook/lib/alloc.c">
+			<Option target="cpllib"/>
+		</Unit>
+		<Unit filename="/home/zhenguo/leetcode/c/CPLBook/lib/getline.c">
+			<Option target="cpllib"/>
+		</Unit>
+		<Unit filename="/home/zhenguo/leetcode/c/CPLBook/lib/swap.c">
+			<Option target="cpllib"/>
+		</Unit>
+		<Unit filename="/home/zhenguo/leetcode/c/CPLBook/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/zhenguo/leetcode/c/CPLBook/lib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\"/>
+		</Unit>
+		<Unit filename="/home/zhenguo/leetcode/c/CPLBook/ch1_A_Tutorial_Introduction/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ch1_A_Tutorial_Introduction\"/>
+		</Unit>
+		<Unit filename="/home/zhenguo/leetcode/c/CPLBook/ch4_Functions_and_Program_Structure/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ch4_Functions_and_Program_Structure\"/>
+		</Unit>
+		<Unit filename="/home/zhenguo/leetcode/c/CPLBook/ch5_Pointers_and_Arrays/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ch5_Pointers_and_Arrays\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
