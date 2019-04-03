@@ -20,6 +20,7 @@
  */
 LinkedList* addNode(LinkedList** root, int val){
 
+    //考虑到了输入的规范性
     if(root == NULL)
         return NULL;
 
@@ -46,6 +47,7 @@ LinkedList* addNode(LinkedList** root, int val){
  */
 void deleteNode(LinkedList** root, int val){
 
+    //考虑到输入的规范性
     if(root == NULL)
         return;
     if(*root == NULL)
@@ -70,6 +72,8 @@ void deleteNode(LinkedList** root, int val){
         cur = cur->next;
     }
 
+
+    //可以省略
     if(del->next == NULL){
         cur->next = NULL;
         free(del);
@@ -129,6 +133,8 @@ int test1(){
     printLinkedList(root);
     addNode(&root, 0);
     printLinkedList(root);
+    deleteNode(&root, 0);
+    printLinkedList(root);
 }
 
 int test2(){
@@ -160,5 +166,5 @@ int test3(){
 
 }
 int main(){
-    test3();
+    test1();
 }
