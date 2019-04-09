@@ -17,3 +17,5 @@ add_subdirectory(ch4_Functions_and_Program_Structure)
 ##chapter five: Pointers and Arrays
 add_subdirectory(ch5_Pointers_and_Arrays)
 
+##chapter eight: The Unix system Interface
+add_subdirectory(ch8-The_Unix_System_Interface)
