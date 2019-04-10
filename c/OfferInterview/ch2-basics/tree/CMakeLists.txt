@@ -1,0 +1,1 @@
+add_executable(p7_old p7_old.c)
