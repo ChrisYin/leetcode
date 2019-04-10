@@ -20,5 +20,7 @@ typedef struct LinkedList{
  */
 LinkedList* addNode(LinkedList** root, int val);
 void deleteNode(LinkedList** root, int val);
+LinkedList *initLinkedList(int length);
+int printLinkedList(LinkedList *root);
 
 #endif //FOROFFER_LINKEDLIST_H

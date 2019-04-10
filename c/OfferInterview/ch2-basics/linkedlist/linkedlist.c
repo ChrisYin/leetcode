@@ -85,7 +85,7 @@ void deleteNode(LinkedList** root, int val){
     return;
 }
 
-static LinkedList *initLinkedList(int length){
+LinkedList *initLinkedList(int length){
     if(length <= 0)
         return NULL;
 
@@ -103,7 +103,7 @@ static LinkedList *initLinkedList(int length){
     return listArray[0];
 }
 
-static int printLinkedList(LinkedList *root){
+int printLinkedList(LinkedList *root){
     if(root == NULL)
         return 0;
 
@@ -116,55 +116,4 @@ static int printLinkedList(LinkedList *root){
     printf("\n");
     return count;
 
-}
-
-/*
- * testcase:
- *
- * // 开始链表为空, 测试添加与删除
- * // 开始链表为一个元素, 测试删除两个元素以及添加
- * // 开始链表为三个元素, 分别测试删除三个元素, 以及添加元素
- */
-
-int test1(){
-    LinkedList *root = NULL;
-    printLinkedList(root);
-    deleteNode(&root, 0);
-    printLinkedList(root);
-    addNode(&root, 0);
-    printLinkedList(root);
-    deleteNode(&root, 0);
-    printLinkedList(root);
-}
-
-int test2(){
-    LinkedList *root = initLinkedList(1);
-    printLinkedList(root);
-    deleteNode(&root, 0);
-    printLinkedList(root);
-    deleteNode(&root, 0);
-    printLinkedList(root);
-    addNode(&root, 1);
-    printLinkedList(root);
-}
-
-int test3(){
-    LinkedList *root = initLinkedList(3);
-    printLinkedList(root);
-    addNode(&root, 4);
-    printLinkedList(root);
-    deleteNode(&root, 4);
-    printLinkedList(root);
-    deleteNode(&root, 0);
-    printLinkedList(root);
-    addNode(&root, 5);
-    printLinkedList(root);
-    addNode(&root, 6);
-    printLinkedList(root);
-    deleteNode(&root, 2);
-    printLinkedList(root);
-
-}
-int main(){
-    test1();
 }
