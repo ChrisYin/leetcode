@@ -6,5 +6,4 @@ set(CMAKE_C_STANDARD 11)
 include_directories(.)
 
 add_subdirectory(ch2-basics)
-add_subdirectory(lib)
 
