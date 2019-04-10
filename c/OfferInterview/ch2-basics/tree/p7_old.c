@@ -41,6 +41,10 @@ BinaryTreeNode *rebuildTree(int *preorder, int *inorder, int length){
         return NULL;
     BinaryTreeNode *root = (BinaryTreeNode *)malloc(sizeof(BinaryTreeNode));
     root->m_nValue = preorder[0];
+    /*
+     * Attention: malloc dont't initialize the data
+     */
+    root->m_pleft = root->m_pright = NULL;
 
     //find the root node in the inorder transversal
     int rootPosition = -1;
