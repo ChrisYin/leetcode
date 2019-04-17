@@ -146,12 +146,66 @@ void heapSort(ElementType *A, int len){
     }
 }
 
+//Quick Sort
+/*
+ * start always point to the element the pivot being swaped with.
+ *
+ */
+void Qsort(ElementType *A, int left, int right){
+    if(A == NULL || left < 0 || right <= 0 || left >= right){
+        return;
+    }
+
+    ElementType pivot;
+    int center;
+    int start,end;
+
+    //Choose Pivot
+    center = (left + right)/2;
+    if(A[left] > A[center]){
+        swap(&A[left], &A[center]);
+    }
+    if(A[center] > A[right]){
+        swap(&A[center], &A[right]);
+    }
+    if(A[left] > A[center]){
+        swap(&A[left], &A[center]);
+    }
+    swap(&A[center], &A[right]);
+    pivot = A[right];
+
+    start = left-1;
+    end = right;
+    //Partition
+    while(1){
+        while(A[++start]<pivot){
+            if(start == right) break;
+        }
+        while(A[--end]>pivot){
+            if(end <= start) break;
+        }
+        if(start>=end){
+            break;
+        }
+        swap(&A[start], &A[end]);
+    }
+    swap(&A[right], &A[start]);
+    //printf("pivot: %d\n", A[start]);
+    //displayArray(A, 16);
+    Qsort(A, left, start-1);
+    Qsort(A, start+1, right);
+}
+
+void quickSort(ElementType *A, int N){
+    Qsort(A, 0, N-1);
+}
+
 
 int main(){
     testSort(insertSort, "insert sort");
     testSort(shellSort, "shell sort");
     testSort(heapSort,"heap sort");
-
+    testSort(quickSort, "quick sort");
     return 0;
 }
 

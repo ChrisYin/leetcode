@@ -15,7 +15,8 @@
 
 ## Bubble Sort
 
-+ 
++ 时间复杂度:
+	+ 最差时间复杂度: O(N^2)
 ## Shell Sort
 
 ### Shell's increments
