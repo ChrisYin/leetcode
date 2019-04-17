@@ -74,6 +74,17 @@ void insertSort(ElementType *A, int len){
    }
 }
 
+//Bubble Sort
+void bubbleSort(ElementType *A, int len){
+
+    for(int i = 0; i < len-1; i++){
+        for(int j = len-1; j > i; j--){
+            if(A[j] < A[j-1])
+                swap(&A[j], &A[j-1]);
+        }
+    }
+}
+
 //Shell Sort
 void shellSort(ElementType *A, int len){
     ElementType tmp;
@@ -224,6 +235,7 @@ void quicksort(ElementType *A, int N){
 }
 int main(){
     testSort(insertSort, "insert sort");
+    testSort(bubbleSort, "bubble sort");
     testSort(shellSort, "shell sort");
     testSort(heapSort, "heap sort");
     testSort(mergeSort, "merge sort");

@@ -94,8 +94,8 @@ void shellSort(ElementType *A, int len){
     for(inc = len/2; inc > 0; inc /= 2){
         for(pivot = inc; pivot < len; pivot++){
             tmp = A[pivot];
-            for(j = pivot; j > 0; j -= inc){
-                if(tmp < A[j]){
+            for(j = pivot; j-inc >= 0; j -= inc){
+                if(tmp < A[j-inc]){
                     A[j] = A[j-inc];
                 } else{
                     break;
@@ -107,10 +107,50 @@ void shellSort(ElementType *A, int len){
     return;
 }
 
+//Heap Sort
+/*
+ * Define the relationship between array index and tree node:
+ *
+ *          0
+ *        1   2
+ *       3 4 5 6
+ */
+#define LEFTNODE(i) (2*(i)+1)
+#define RIGHTNODE(i) (2*(i)+2)
+#define PARENTNODE(i) (((i)-1)/2)
+
+void percDown(ElementType *A, int i, int len){
+    int child;
+
+    for(int node = i; (child = LEFTNODE(node)) < len ;node = child){
+        if(RIGHTNODE(node) < len && A[RIGHTNODE(node)] > A[LEFTNODE(node)]){
+            child = RIGHTNODE(node);
+        }
+        if(A[node] < A[child]){
+            swap(&A[node],&A[child]);
+            //displayArray(A, len);
+        }else{
+            break;
+        }
+    }
+}
+
+void heapSort(ElementType *A, int len){
+    for(int i = len/2; i >= 0; i--){
+        percDown(A, i, len);
+        //displayArray(A, len);
+    }
+    for(int i = len-1; i > 0; i--){
+        swap(&A[0], &A[i]);
+        percDown(A, 0, --len);
+    }
+}
+
 
 int main(){
     testSort(insertSort, "insert sort");
     testSort(shellSort, "shell sort");
+    testSort(heapSort,"heap sort");
 
     return 0;
 }
@@ -121,5 +161,7 @@ int testSort(void (*sort)(ElementType *, int), char name[]){
     ElementType *test = randomArray(res, len);
     sort(test, len);
     printf("%s test: %s\n", name, compareArray(res, test, len)?"pass":"fail");
+    if(!compareArray(res, test, len))
+        displayArray(test, len);
     free(test);
 }

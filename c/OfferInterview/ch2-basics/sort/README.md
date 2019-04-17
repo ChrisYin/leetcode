@@ -12,6 +12,10 @@
 	+ 最差时间复杂度: O(N^2)
 	+ 最优时间复杂度: O(N)
 + 无额外空间消耗
+
+## Bubble Sort
+
++ 
 ## Shell Sort
 
 ### Shell's increments
