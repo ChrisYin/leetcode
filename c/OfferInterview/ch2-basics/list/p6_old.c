@@ -2,7 +2,7 @@
 // Created by zhenguo on 19-4-2.
 //
 #include <stdio.h>
-#include <ch2-basics/linkedlist/stack.h>
+#include <ch2-basics/list/stack.h>
 #include "linkedlist.h"
 
 /*
