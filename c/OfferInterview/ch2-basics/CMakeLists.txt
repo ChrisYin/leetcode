@@ -1,6 +1,6 @@
 add_subdirectory(array)
 add_subdirectory(string)
-add_subdirectory(linkedlist)
+add_subdirectory(list)
 add_subdirectory(tree)
 add_subdirectory(queue)
 add_subdirectory(recursion)
