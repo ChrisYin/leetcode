@@ -5,4 +5,9 @@
 #ifndef FOROFFER_GLIB_H
 #define FOROFFER_GLIB_H
 
+
+#include <stdlib.h>
+
+typedef int ElementType;
+
 #endif //FOROFFER_GLIB_H

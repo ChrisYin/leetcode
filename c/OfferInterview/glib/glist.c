@@ -26,13 +26,9 @@
  * MT safe
  */
 
-#include "config.h"
 
 #include "glist.h"
-#include "gslice.h"
-#include "gmessages.h"
 
-#include "gtestutils.h"
 
 /**
  * SECTION:linked_lists_double
@@ -149,7 +145,7 @@
 
 #define _g_list_alloc()         g_slice_new (GList)
 #define _g_list_alloc0()        g_slice_new0 (GList)
-#define _g_list_free1(list)     g_slice_free (GList, list)
+#define _g_list_free1(list)     free(list)
 
 /**
  * g_list_alloc:
