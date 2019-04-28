@@ -1,0 +1,1 @@
+add_executable(p15 p15.c)

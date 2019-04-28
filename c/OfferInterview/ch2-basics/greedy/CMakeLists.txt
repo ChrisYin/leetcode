@@ -1,0 +1,1 @@
+add_executable(p14_greedy p14.c)
