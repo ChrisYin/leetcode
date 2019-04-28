@@ -1,0 +1,1 @@
+add_executable(p16 p16.c)

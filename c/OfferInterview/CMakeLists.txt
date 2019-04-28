@@ -6,6 +6,7 @@ set(CMAKE_C_STANDARD 11)
 include_directories(.)
 
 add_subdirectory(ch2-basics)
+add_subdirectory(ch3-quality)
 add_subdirectory(glib)
 add_subdirectory(360)
 
